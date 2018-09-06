@@ -46,5 +46,3 @@ dependencies {
     implementation 'com.google.android.gms:play-services-maps:11.6.2'
     implementation 'org.apache.httpcomponents:httpmime:4.3.6'
 }
-
-

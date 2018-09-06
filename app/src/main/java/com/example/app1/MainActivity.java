@@ -115,8 +115,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener{
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.credits) {
+            Intent i = new Intent(MainActivity.this, Credits.class);
+            startActivity(i);
         }
 
         return super.onOptionsItemSelected(item);
